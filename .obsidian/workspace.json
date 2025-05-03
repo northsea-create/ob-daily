@@ -49,7 +49,8 @@
               "title": "未命名"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,14 +210,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0052ec07df01056c",
+  "active": "8731f23840da170b",
   "lastOpenFiles": [
-    "未命名.md",
+    "模板/复盘模板.md",
     "每日复盘/2025-05-03.md",
+    "未命名.md",
+    "每日复盘聚合总览.md",
     "每日复盘",
     "1.ignore.md",
     "新建 文本文档.txt",
-    "模板/复盘模板.md",
     "图片",
     "2025-05-03 周六.md",
     "图片/Pasted image 20250503112153.png",
