@@ -35,7 +35,8 @@
               "title": "2025-05-03"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,10 +196,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aefe99c8f28d2c01",
+  "active": "8731f23840da170b",
   "lastOpenFiles": [
+    "1.ignore.md",
     "2025-05-03.md",
-    "未命名.md",
+    "新建 文本文档.txt",
     "模板/复盘模板.md",
     "图片",
     "2025-05-03 周六.md",

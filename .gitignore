@@ -1,0 +1,23 @@
+# 忽略 Obsidian 缓存和本地设置
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/appearance.json
+.obsidian/plugins/**/node_modules/
+.obsidian/plugins/**/.obsidian-plugin.json
+
+# 忽略 Dataview 的缓存
+.dataview/
+
+# 忽略 Templater 的临时文件
+.obsidian/plugins/templater-obsidian/data.json
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 忽略模板文件夹（如你不希望同步模板）
+模板/
+
+# 忽略 iPad/桌面端 Obsidian 生成的日志或测试文件
+未命名.md
