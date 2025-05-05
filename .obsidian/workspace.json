@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -210,10 +210,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8731f23840da170b",
+  "active": "3c9f6ed1a521c293",
   "lastOpenFiles": [
-    "每日复盘/2025-05-03.md",
     "每日复盘_文字字段聚合总览.md",
+    "每日复盘/2025-05-03.md",
     "模板/复盘模板.md",
     "未命名.md",
     "每日复盘聚合总览.md",
