@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "每日复盘/2025-05-21.md",
+                "file": "每日复盘/2025-05-20.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-21"
+              "title": "2025-05-20"
             }
           },
           {
@@ -35,7 +35,8 @@
               "title": "每日复盘_文字字段聚合总览"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,14 +196,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0052ec07df01056c",
+  "active": "59f7d3b919a6b367",
   "lastOpenFiles": [
-    "每日复盘/2025-05-05.md",
-    "每日复盘_文字字段聚合总览.md",
+    "每日复盘/2025-05-20.md",
     "每日复盘/2025-05-21.md",
+    "每日复盘_文字字段聚合总览.md",
+    "AI产品养成计划.md",
+    "每日复盘/2025-05-05.md",
     "每日复盘/2025-05-03.md",
     "每日复盘/2025-05-04.md",
-    "未命名.md",
     "模板/复盘模板.md",
     "每日复盘聚合总览.md",
     "每日复盘",
