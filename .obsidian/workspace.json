@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "每日复盘/2025-05-21.md",
-                "mode": "source",
+                "file": "每日复盘/中级培训.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-21"
-            }
-          },
-          {
-            "id": "723a14df72f5192a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "林霏开是谁.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "林霏开是谁"
+              "title": "中级培训"
             }
           },
           {
@@ -41,21 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "每日复盘/2025-05-22.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-05-22"
-            }
-          },
-          {
-            "id": "1e0e8f58206a52ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "中级培训.md",
+                "file": "每日复盘/中级培训.md",
                 "mode": "source",
                 "source": false
               },
@@ -77,7 +49,8 @@
               "title": "每日复盘_文字字段聚合总览"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +69,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "alphabeticalReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -109,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "中级培训",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,8 +103,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -238,18 +210,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0052ec07df01056c",
+  "active": "59f7d3b919a6b367",
   "lastOpenFiles": [
-    "中级培训.md",
-    "每日复盘/2025-05-22.md",
+    "每日复盘/中级培训.md",
     "每日复盘/2025-05-21.md",
-    "林霏开是谁.md",
-    "林霏开的弱点.md",
+    "每日复盘/2025-05-22.md",
+    "林霏开是谁/林霏开的弱点.md",
+    "林霏开是谁/林霏开的游戏.md",
+    "林霏开是谁",
+    "每日复盘_文字字段聚合总览.md",
+    "林霏开是谁/林霏开是谁.md",
     "xxx.md",
     "AI产品养成计划.md",
     "图片/Pasted image 20250523002932.png",
     "每日复盘/2025-05-20.md",
-    "每日复盘_文字字段聚合总览.md",
     "每日复盘/2025-05-05.md",
     "每日复盘/2025-05-03.md",
     "每日复盘/2025-05-04.md",
