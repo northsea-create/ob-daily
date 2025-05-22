@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "每日复盘/2025-05-22.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "2025-05-22"
             }
           },
           {
@@ -238,10 +238,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e0e8f58206a52ed",
+  "active": "aefe99c8f28d2c01",
   "lastOpenFiles": [
     "每日复盘/2025-05-21.md",
-    "未命名.md",
+    "每日复盘/2025-05-22.md",
     "每日复盘/2025-05-20.md",
     "每日复盘_文字字段聚合总览.md",
     "林霏开是谁.md",
