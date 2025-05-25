@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "每日复盘/2025-05-24.md",
+                "file": "模板/复盘模板.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-24"
+              "title": "复盘模板"
             }
           },
           {
@@ -83,16 +83,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "每日复盘_文字字段聚合总览.md",
+                "file": "每日复盘/2025-05-25.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "每日复盘_文字字段聚合总览"
+              "title": "2025-05-25"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -252,17 +252,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cf90d00037971900",
+  "active": "06890741ce20af6f",
   "lastOpenFiles": [
+    "每日复盘/2025-05-25.md",
+    "模板/复盘模板.md",
+    "每日复盘/2025-05-20.md",
+    "每日复盘/2025-05-24.md",
+    "每日复盘_文字字段聚合总览.md",
     "字段化idea样例.md",
     "每日复盘/2025-05-21.md",
     "每日复盘/2025-05-22.md",
     "每日复盘/2025-05-23.md",
-    "每日复盘/2025-05-24.md",
     "每日复盘/2025-05-03.md",
-    "每日复盘/2025-05-20.md",
-    "每日复盘_文字字段聚合总览.md",
-    "每日复盘/2025-05-25.md",
     "每日复盘/2025-05-04.md",
     "每日复盘/2025-05-05.md",
     "每日复盘/中级培训.md",
@@ -273,7 +274,6 @@
     "xxx.md",
     "AI产品养成计划.md",
     "图片/Pasted image 20250523002932.png",
-    "模板/复盘模板.md",
     "每日复盘聚合总览.md",
     "每日复盘",
     "1.ignore.md",
