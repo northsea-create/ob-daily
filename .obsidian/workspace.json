@@ -83,16 +83,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "每日复盘/2025-05-25.md",
+                "file": "字段化idea样例.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-05-25"
+              "title": "字段化idea样例"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -252,13 +252,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "06890741ce20af6f",
+  "active": "cf90d00037971900",
   "lastOpenFiles": [
-    "每日复盘/2025-05-24.md",
+    "每日复盘_文字字段聚合总览.md",
+    "字段化idea样例.md",
     "每日复盘/2025-05-25.md",
     "每日复盘/2025-05-23.md",
+    "每日复盘/2025-05-24.md",
     "每日复盘/2025-05-03.md",
-    "每日复盘_文字字段聚合总览.md",
     "每日复盘/2025-05-04.md",
     "每日复盘/2025-05-05.md",
     "每日复盘/2025-05-20.md",
