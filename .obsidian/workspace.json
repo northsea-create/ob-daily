@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "每日复盘/2025-05-28.md",
-                "mode": "source",
+                "file": "每日复盘/2025-5/2025-5-25 复盘迭代.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-28"
+              "title": "2025-5-25 复盘迭代"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "提示词文档.md",
+                "file": "产品方法论/刘小排-如何提高做产品的成功率？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "提示词文档"
+              "title": "刘小排-如何提高做产品的成功率？"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "提示词文档.md",
+                "file": "每日复盘/2025-5/2025-5-25 复盘迭代.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "提示词文档 的大纲"
+              "title": "2025-5-25 复盘迭代 的大纲"
             }
           },
           {
@@ -195,11 +194,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "65d18ca35351984b",
+  "active": "3c9ba189f634985c",
   "lastOpenFiles": [
-    "产品方法论/刘小排-如何提高做产品的成功率？.md",
-    "每日复盘/2025-05-28.md",
     "每日复盘/2025-05-27.md",
+    "产品方法论/刘小排-如何提高做产品的成功率？.md",
+    "提示词文档.md",
     "每日复盘/2025-5/中级培训.md",
     "模板/复盘模板.md",
     "每日复盘/2025-5",
@@ -210,7 +209,6 @@
     "模板/（废弃）10x 复盘模板.md",
     "10x北极星计划/10x 战略行动规划.md",
     "10x北极星计划/10x 北极星文档.md",
-    "提示词文档.md",
     "每日复盘/2025-5/每日复盘_文字字段聚合总览.md",
     "每日复盘/2025-5/2025-5-25 复盘迭代.md",
     "产品方法论",
