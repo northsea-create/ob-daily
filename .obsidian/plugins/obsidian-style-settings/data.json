@@ -1,4 +1,11 @@
 {
   "blue-topaz-theme@@color-scheme-options": "color-scheme-options-autumn-topaz",
-  "blue-topaz-theme@@retain-header-color": true
+  "blue-topaz-theme@@retain-header-color": true,
+  "blue-topaz-theme@@paragraph-spacing": 1,
+  "blue-topaz-theme@@dark-background-file": true,
+  "blue-topaz-theme@@remove-file-icons": false,
+  "blue-topaz-theme@@folder-note-dot": false,
+  "blue-topaz-theme@@folder-note-underline": false,
+  "blue-topaz-theme@@folder-style-change-options-colorful-subfolder": "folder-colorful-six",
+  "blue-topaz-theme@@blockquote-style-change-options": "blockquote-style-speech-bubble-one"
 }
