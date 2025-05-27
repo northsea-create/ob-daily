@@ -1,5 +1,6 @@
 {
-  "cssTheme": "Things",
+  "cssTheme": "Blue Topaz",
   "accentColor": "#34a8a6",
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "baseFontSize": 18
 }
