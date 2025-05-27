@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "每日复盘_文字字段聚合总览.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -55,16 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "模板/10x 复盘模板.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "10x 复盘模板"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.md",
+                "file": "2025-5-25 复盘迭代.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "2025-5-25 复盘迭代 的大纲"
             }
           },
           {
@@ -223,14 +223,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a29969155a6f5be8",
+  "active": "49a234ad79b2d4de",
   "lastOpenFiles": [
+    "每日复盘_文字字段聚合总览.md",
+    "模板/10x 复盘模板.md",
     "10x北极星计划/我的10x 北极星文档.md",
-    "未命名.md",
     "10x北极星计划",
     "2025-5-25 复盘迭代.md",
     "提示词文档.md",
-    "每日复盘_文字字段聚合总览.md",
     "每日复盘/2025-05-22.md",
     "每日复盘/2025-05-23.md",
     "每日复盘/2025-05-24.md",
