@@ -20,6 +20,34 @@
               "icon": "lucide-file",
               "title": "2025-05-28"
             }
+          },
+          {
+            "id": "dd6116442f726238",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "模板/10x 每日精进模板.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10x 每日精进模板"
+            }
+          },
+          {
+            "id": "4815a87d2c831453",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "产品方法论/产品需求洞察与验证SOP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "产品需求洞察与验证SOP"
+            }
           }
         ]
       }
@@ -180,11 +208,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aefe99c8f28d2c01",
+  "active": "b86c5bd8589b8ad2",
   "lastOpenFiles": [
-    "AI产品养成计划.md",
-    "每日复盘/2025-05-28.md",
     "模板/10x 每日精进模板.md",
+    "每日复盘/2025-05-28.md",
+    "产品方法论/产品需求洞察与验证SOP.md",
+    "AI产品养成计划.md",
     "模板/z（废弃）10x 复盘模板.md",
     "00. Lucid Muse 星际跃迁/Lucid Muse 新工具筛选器.md",
     "准备插入.md",
@@ -210,7 +239,6 @@
     "每日复盘/2025-5/2025-05-25.md",
     "每日复盘/2025-5/2025-05-20.md",
     "每日复盘/2025-5/2025-05-21.md",
-    "每日复盘/2025-5/2025-05-03.md",
     "林霏开是谁",
     "图片/Pasted image 20250523002932.png",
     "每日复盘",
