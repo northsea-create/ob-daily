@@ -49,7 +49,8 @@
               "title": "产品需求洞察与验证SOP"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -170,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日复盘/2025-05-28.md",
+                "file": "产品方法论/产品需求洞察与验证SOP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-05-28 的大纲"
+              "title": "产品需求洞察与验证SOP 的大纲"
             }
           },
           {
@@ -208,11 +209,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b86c5bd8589b8ad2",
+  "active": "4815a87d2c831453",
   "lastOpenFiles": [
-    "准备插入.md",
-    "模板/10x 每日精进模板.md",
     "每日复盘/2025-05-28.md",
+    "模板/10x 每日精进模板.md",
+    "准备插入.md",
     "产品方法论/产品需求洞察与验证SOP.md",
     "AI产品养成计划.md",
     "模板/z（废弃）10x 复盘模板.md",
