@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-05-29.md",
+                "file": "每日复盘/2025-05-29.md",
                 "mode": "source",
                 "source": false
               },
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-05-29.md",
+                "file": "模板/10x 每日精进模板.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-05-29 的大纲"
+              "title": "10x 每日精进模板 的大纲"
             }
           },
           {
@@ -223,10 +223,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21f0b7d429102310",
+  "active": "dd6116442f726238",
   "lastOpenFiles": [
+    "每日复盘/2025-05-29.md",
     "python复习.md",
-    "2025-05-29.md",
     "每日复盘/2025-05-28.md",
     "每日复盘/2025-05-27.md",
     "模板/10x 每日精进模板.md",
