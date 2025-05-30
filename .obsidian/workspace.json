@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03. 每日复盘/计划.md",
+                "file": "中级审计复习/SQL 神通数据库/SQL业务常见代码块.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "计划"
+              "title": "SQL业务常见代码块"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03. 每日复盘/计划.md",
+                "file": "中级审计复习/SQL 神通数据库/SQL业务常见代码块.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "计划 的大纲"
+              "title": "SQL业务常见代码块 的大纲"
             }
           },
           {
@@ -194,15 +194,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aefe99c8f28d2c01",
+  "active": "c6aab0576a3322a3",
   "lastOpenFiles": [
+    "计划/计划.md",
+    "中级审计复习/SQL 神通数据库/SQL业务常见代码块.md",
+    "计划",
     "模板/计划模板.md",
     "03. 每日复盘/2025-05-30.md",
     "python复习.md",
     "图片/Pasted image 20250503112153.png",
     "图片/Pasted image 20250523002932.png",
     "模板/复盘模板.md",
-    "03. 每日复盘/计划.md",
     "00. Lucid Muse 星际跃迁/10x AI-copilot 搭子提示词.md",
     "04. 提示词",
     "03. 每日复盘/2025-05-29.md",
@@ -231,7 +233,6 @@
     "02. 产品方法论",
     "00. Lucid Muse 星际跃迁",
     "00. Lucid Muse 星际跃迁/林霏开是谁",
-    "03. 每日复盘",
-    "新建 文本文档.txt"
+    "03. 每日复盘"
   ]
 }
