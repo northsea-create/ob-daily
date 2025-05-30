@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python复习.md",
+                "file": "03. 每日复盘/2025-05-30.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "python复习"
+              "title": "2025-05-30"
             }
           },
           {
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "每日复盘/2025-05-29.md",
+                "file": "03. 每日复盘/2025-05-29.md",
                 "mode": "source",
                 "source": false
               },
@@ -49,8 +49,7 @@
               "title": "10x 北极星"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "每日复盘/2025-05-29.md",
+                "file": "03. 每日复盘/2025-05-30.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-05-29 的大纲"
+              "title": "2025-05-30 的大纲"
             }
           },
           {
@@ -209,43 +208,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21f0b7d429102310",
+  "active": "c6aab0576a3322a3",
   "lastOpenFiles": [
-    "10x AI-copilot 复盘搭子提示词.md",
+    "python复习.md",
+    "03. 每日复盘/2025-05-30.md",
+    "04. 提示词",
+    "03. 每日复盘/2025-05-29.md",
+    "中级审计复习/SQL 神通数据库/SQL.md",
+    "中级审计复习/SQL 神通数据库",
+    "中级审计复习/python/Python pandas.md",
+    "中级审计复习/python",
+    "中级审计复习",
+    "00. Lucid Muse 星际跃迁/10x AI-copilot 复盘搭子提示词.md",
     "00. Lucid Muse 星际跃迁/10x 北极星.md",
     "模板/10x 每日精进模板.md",
-    "产品方法论/产品需求洞察与验证SOP 1.0.md",
-    "每日复盘/2025-05-29.md",
-    "python复习.md",
-    "每日复盘/2025-05-28.md",
-    "每日复盘/2025-05-27.md",
+    "02. 产品方法论/产品需求洞察与验证SOP 1.0.md",
+    "03. 每日复盘/2025-05-28.md",
+    "03. 每日复盘/2025-05-27.md",
     "准备插入.md",
     "AI产品养成计划.md",
     "模板/z（废弃）10x 复盘模板.md",
     "00. Lucid Muse 星际跃迁/Lucid Muse 新工具筛选器.md",
     "00. Lucid Muse 星际跃迁/Lucid Muse 资金投入优先级排序.md",
-    "产品方法论/刘小排-如何提高做产品的成功率？.md",
-    "每日复盘/2025-5/2025-5-25 复盘迭代.md",
-    "提示词文档.md",
-    "每日复盘/2025-5/中级培训.md",
+    "02. 产品方法论/刘小排-如何提高做产品的成功率？.md",
+    "03. 每日复盘/2025-5/2025-5-25 复盘迭代.md",
+    "04. 提示词/提示词文档.md",
+    "03. 每日复盘/2025-5/中级培训.md",
     "模板/复盘模板.md",
-    "每日复盘/2025-5",
+    "03. 每日复盘/2025-5",
     "00. Lucid Muse 星际跃迁/10x 日常生活优先级排序.md",
     "字段化idea样例.md",
     "00. Lucid Muse 星际跃迁/10x 战略行动规划.md",
-    "每日复盘/2025-5/每日复盘_文字字段聚合总览.md",
-    "产品方法论",
+    "03. 每日复盘/2025-5/每日复盘_文字字段聚合总览.md",
+    "02. 产品方法论",
     "我的10x 日常生活优先级排序 (The 10x Daily Life Priority Stack).md",
     "00. Lucid Muse 星际跃迁",
-    "每日复盘/2025-5/2025-05-22.md",
-    "每日复盘/2025-5/2025-05-23.md",
-    "每日复盘/2025-5/2025-05-24.md",
-    "林霏开是谁",
+    "00. Lucid Muse 星际跃迁/林霏开是谁",
     "图片/Pasted image 20250523002932.png",
-    "每日复盘",
+    "03. 每日复盘",
     "新建 文本文档.txt",
-    "图片",
-    "图片/Pasted image 20250503112153.png",
-    "模板"
+    "图片/Pasted image 20250503112153.png"
   ]
 }
