@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -172,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL 基础操作.md",
+                "file": "计划/计划.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "SQL 基础操作 的大纲"
+              "title": "计划 的大纲"
             }
           },
           {
@@ -210,10 +210,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df4a73b35efeb596",
+  "active": "fdb3d0337304dcaa",
   "lastOpenFiles": [
-    "中级审计复习/SQL 神通数据库/SQL 业务场景常见代码块.md",
     "SQL 基础操作.md",
+    "中级审计复习/SQL 神通数据库/SQL 业务场景常见代码块.md",
     "计划/计划.md",
     "03. 每日复盘/2025-05-30.md",
     "计划",
