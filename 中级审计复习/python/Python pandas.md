@@ -401,7 +401,7 @@
         # 示例：将 'Price' 列的值都增加10%
         df['AdjustedPrice'] = df['Price'].apply(lambda x: x * 1.1 if pd.notnull(x) else None)
         # 示例：从 'FullName' 列提取姓氏
-        df['LastName'] = df['FullName'].apply(lambda name: name.split(' ')[-1] if isinstance(name, str) else None)
+        df['LastName'] = df['FullName'].apply(lambda name: name.split(' ')[-1]
         ```
     *   **对 DataFrame 的行操作 (`axis=1`)：**
         ```python

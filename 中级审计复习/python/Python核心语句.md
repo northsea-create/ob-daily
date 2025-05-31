@@ -1,20 +1,32 @@
 
-# Pandas核心：数据筛选与操作赋值
+# Pandas
 > Reference [[Python pandas]] 
 
 ## **1. 读写**
 ```python
 import pandas as pd
-df=pd.read_excel('',sheet_name=1)   
-df.pd.
+df=pd.read_excel('文件路径/文件名.xlsx',sheet_name=1)   
+df.to_excel('文件路径/文件名.xlsx')
 ```
 
 
 ## **2. 筛选**
+选择行
+```python
+row=df.loc[df['成绩']<60]
+```
 
+选择列 
+```python
+columns=df[['学号','成绩','姓名']]
+```
 
-## **3. 赋值 **
+## **3. 赋值**：交换列、拆分表格
 
+## **4. 填空/重复**
+
+## **5. 聚合函数**：分类汇总、求和
+ 
 
 ## **1. `df.loc[df['Sales'] > 100]` 像SQL的 `SELECT ... WHERE`**
 
