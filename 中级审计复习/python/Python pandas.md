@@ -352,6 +352,7 @@
 *   **`df['column_name']` 或 `df.column_name` (选择单列):** 返回一个 Series。
     *   `df[['col1', 'col2']]` (选择多列): 返回一个 DataFrame。
 *   **`.loc[]` (Label-based selection - 基于标签/名称)：**
+	* **原则：冒号”：“前为行，冒号”：“后为列，用逗号做范围**
     *   `df.loc[row_label]` (选择单行)
     *   `df.loc[[row_label1, row_label2]]` (选择多行)
     *   `df.loc[row_label, column_label]` (选择单个元素)
