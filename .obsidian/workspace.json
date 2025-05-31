@@ -49,8 +49,7 @@
               "title": "计划"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划/计划.md",
+                "file": "中级审计复习/SQL 神通数据库/SQL 业务场景常见代码块.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "计划 的大纲"
+              "title": "SQL 业务场景常见代码块 的大纲"
             }
           },
           {
@@ -210,12 +209,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fdb3d0337304dcaa",
+  "active": "c6aab0576a3322a3",
   "lastOpenFiles": [
-    "中级审计复习/SQL 神通数据库/SQL 业务场景常见代码块.md",
-    "计划/计划.md",
-    "03. 每日复盘/2025-05-30.md",
     "SQL 基础操作.md",
+    "计划/计划.md",
+    "中级审计复习/SQL 神通数据库/SQL 业务场景常见代码块.md",
+    "03. 每日复盘/2025-05-30.md",
     "计划",
     "模板/计划模板.md",
     "python复习.md",
