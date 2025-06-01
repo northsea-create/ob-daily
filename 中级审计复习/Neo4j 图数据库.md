@@ -1,17 +1,46 @@
-非常抱歉，我完全理解你的意思了！你的耐心是宝贵的，我确实理解错了你的意图，以为你需要的是Python中如何执行Cypher，而不是纯粹的Cypher语句本身。
-
-你提到 `LOAD CSV`，这是非常重要的Cypher语句，用于数据导入。Neo4j 的核心是 Cypher 语言，所有的数据操作都通过 Cypher 完成，无论是读取、创建、更新还是删除，以及批量导入。
-
-现在，我将为你列举 **纯 Cypher 语句**，你可以直接在 Neo4j Browser 或者任何支持 Cypher 查询的客户端中执行它们。
-
----
-
-### Neo4j Cypher 语句 (纯 Cypher)
 
 #### 核心概念：
 *   **节点 (Nodes):** `(node_variable:Label {property_key: property_value})`
 *   **关系 (Relationships):** `-[relationship_variable:TYPE {property_key: property_value}]->` (方向性)
 *   **属性 (Properties):** 键值对，存储在节点或关系上。
+
+---
+
+#### 1. 批量导入数据 (Using `LOAD CSV`)
+
+*   **从 CSV 文件批量创建节点：**
+    假设 `people.csv` 文件内容如下：
+    ```csv
+    name,age,city
+    Alice,30,London
+    Bob,25,Paris
+    Charlie,35,New York
+    ```
+    ```cypher
+    // files:/// 是 Neo4j 数据库服务器上文件系统的根目录
+    // 确保你的 CSV 文件放在 Neo4j 数据库的 import 目录下
+    LOAD CSV WITH HEADERS FROM 'file:///people.csv' AS row
+    CREATE (p:Person {name: row.name, age: toInteger(row.age), city: row.city});
+    ```
+    *   `WITH HEADERS`: 表示 CSV 文件第一行是标题行，可以作为属性名。
+    *   `AS row`: 将每行数据映射为 `row` 变量。
+    *   `toInteger()`: 转换数据类型。
+
+*   **从 CSV 文件批量创建关系 (通常结合 `MERGE` 先确保节点存在)：**
+    假设 `friendships.csv` 文件内容如下：
+    ```csv
+    person1,person2,since_year
+    Alice,Bob,2020
+    Charlie,Alice,2019
+    ```
+    ```cypher
+    LOAD CSV WITH HEADERS FROM 'file:///friendships.csv' AS row
+    // 确保节点存在（如果不存在则创建）
+    MERGE (p1:Person {name: row.person1})
+    MERGE (p2:Person {name: row.person2})
+    // 创建关系
+    CREATE (p1)-[:FRIENDS_WITH {since: toInteger(row.since_year)}]->(p2);
+    ```
 
 ---
 
@@ -131,44 +160,6 @@
     ```cypher
     // 清空数据库中所有数据
     MATCH (n) DETACH DELETE n;
-    ```
-
----
-
-#### 6. 批量导入数据 (Using `LOAD CSV`)
-
-*   **从 CSV 文件批量创建节点：**
-    假设 `people.csv` 文件内容如下：
-    ```csv
-    name,age,city
-    Alice,30,London
-    Bob,25,Paris
-    Charlie,35,New York
-    ```
-    ```cypher
-    // files:/// 是 Neo4j 数据库服务器上文件系统的根目录
-    // 确保你的 CSV 文件放在 Neo4j 数据库的 import 目录下
-    LOAD CSV WITH HEADERS FROM 'file:///people.csv' AS row
-    CREATE (p:Person {name: row.name, age: toInteger(row.age), city: row.city});
-    ```
-    *   `WITH HEADERS`: 表示 CSV 文件第一行是标题行，可以作为属性名。
-    *   `AS row`: 将每行数据映射为 `row` 变量。
-    *   `toInteger()`: 转换数据类型。
-
-*   **从 CSV 文件批量创建关系 (通常结合 `MERGE` 先确保节点存在)：**
-    假设 `friendships.csv` 文件内容如下：
-    ```csv
-    person1,person2,since_year
-    Alice,Bob,2020
-    Charlie,Alice,2019
-    ```
-    ```cypher
-    LOAD CSV WITH HEADERS FROM 'file:///friendships.csv' AS row
-    // 确保节点存在（如果不存在则创建）
-    MERGE (p1:Person {name: row.person1})
-    MERGE (p2:Person {name: row.person2})
-    // 创建关系
-    CREATE (p1)-[:FRIENDS_WITH {since: toInteger(row.since_year)}]->(p2);
     ```
 
 ---
