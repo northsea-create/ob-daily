@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,13 +214,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "中级审计复习/SQL 神通数据库/SQL 业务场景常见代码块.md",
+                "file": "中级审计复习/核心考点.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "SQL 业务场景常见代码块 的大纲"
+              "title": "核心考点 的大纲"
             }
           },
           {
@@ -252,10 +252,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d478b47e1aacd539",
+  "active": "fdb3d0337304dcaa",
   "lastOpenFiles": [
-    "中级审计复习/SQL 神通数据库/SQL 不同位置的聚合语句及其作用.md",
     "中级审计复习/SQL 神通数据库/SQL 业务场景常见代码块.md",
+    "中级审计复习/SQL 神通数据库/SQL 不同位置的聚合语句及其作用.md",
     "中级审计复习/python/Python核心语句.md",
     "中级审计复习/核心考点.md",
     "计划/计划.md",
