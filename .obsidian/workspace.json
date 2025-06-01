@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "准备插入.md",
+                "file": "计划/计划.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "准备插入"
+              "title": "计划"
             }
           },
           {
@@ -149,7 +149,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "676a0f883ad53caa",
@@ -237,7 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,18 +254,18 @@
   },
   "active": "fdb3d0337304dcaa",
   "lastOpenFiles": [
+    "计划/计划.md",
+    "准备插入.md",
+    "中级审计复习/核心考点.md",
     "中级审计复习/SQL 神通数据库/SQL 业务场景常见代码块.md",
     "中级审计复习/SQL 神通数据库/SQL 基础操作.md",
     "中级审计复习/SQL 神通数据库/SQL 介词.md",
     "中级审计复习/SQL 神通数据库/SQL 不同位置的聚合语句及其作用.md",
     "中级审计复习/SQL 神通数据库/SQL 筛选框架.md",
     "中级审计复习/python/Python pandas.md",
-    "中级审计复习/核心考点.md",
-    "准备插入.md",
     "00. Lucid Muse 星际跃迁/10x 北极星.md",
     "字段化idea样例.md",
     "AI产品养成计划.md",
-    "计划/计划.md",
     "03. 每日复盘/2025-5/2025-05-25 复盘迭代.md",
     "03. 每日复盘/2025-5/2025-05-25 每日复盘_文字字段聚合总览.md",
     "03. 每日复盘/2025-5/2025-05-27.md",
