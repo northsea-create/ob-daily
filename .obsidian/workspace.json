@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c6aab0576a3322a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计划/计划.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "计划"
-            }
-          },
-          {
             "id": "fdb3d0337304dcaa",
             "type": "leaf",
             "state": {
@@ -91,8 +77,7 @@
               "title": "Python pandas"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -254,6 +239,7 @@
   "active": "fdb3d0337304dcaa",
   "lastOpenFiles": [
     "00. Lucid Muse 星际跃迁/筛选器/Lucid Muse Tier0：健康与能量管理核心.md",
+    "计划/计划.md",
     "03. 每日复盘/2025-6/2025-06-01.md",
     "03. 每日复盘/2025-6",
     "00. Lucid Muse 星际跃迁/筛选器/10x 日常生活优先级排序.md",
@@ -263,7 +249,6 @@
     "中级审计复习/SQL 神通数据库/SQL 业务场景常见代码块.md",
     "中级审计复习/SQL 神通数据库/SQL 不同位置的聚合语句及其作用.md",
     "中级审计复习/python/Python核心语句.md",
-    "计划/计划.md",
     "准备插入.md",
     "中级审计复习/SQL 神通数据库/SQL 基础操作.md",
     "中级审计复习/SQL 神通数据库/SQL 介词.md",
