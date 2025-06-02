@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "中级审计复习/核心考点.md",
+                "file": "04. 提示词/提示词文档.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "核心考点 的大纲"
+              "title": "提示词文档 的大纲"
             }
           },
           {
@@ -251,10 +251,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "285c19a08cfeff18",
+  "active": "b8ca2b1e19646922",
   "lastOpenFiles": [
-    "04. 提示词/提示词文档.md",
     "中级审计复习/核心考点.md",
+    "04. 提示词/提示词文档.md",
     "中级审计复习/python/Python pandas.md",
     "中级审计复习/Neo4j 图数据库.md",
     "SQL 时间函数.md",
