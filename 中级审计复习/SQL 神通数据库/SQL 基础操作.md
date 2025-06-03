@@ -31,7 +31,7 @@ GRANT SELECT,UPDATE,DELETE ON loan TO user_lfk WITH GRANT OPTION;
 
 
 ---创建表
-CREATE TABLE 表格 (
+CREATE TABLE 表格 ***直接列变量的时候不用AS!***(
 sfz CHAR(18) PRIMARY KEY,
 loan VARCHAR(10),
 FOREIGN KEY (client_loan) REFERENCES bank(client_loan),
