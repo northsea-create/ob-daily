@@ -160,17 +160,11 @@
     ```sql
     WITH RankedData AS (
         SELECT
-            *, -- 或只选需要的列
             SUM(value_to_aggregate_by) AS aggregated_metric, -- 如果需要先聚合再排名
-            ROW_NUMBER() OVER (ORDER BY SUM(value_to_aggregate_by) DESC) as rn_desc, -- 降序排名 (Top N)
-            ROW_NUMBER() OVER (ORDER BY SUM(value_to_aggregate_by) ASC) as rn_asc   -- 升序排名 (Bottom N)
-            -- 如果是按原始列排名，不需要SUM()和GROUP BY
-            -- ROW_NUMBER() OVER (PARTITION BY category_column ORDER BY metric_column DESC) as rank_within_category
+            ROW_NUMBER() OVER (PARTITION BY A ORDER BY SUM(value_to_aggregate_by) DESC) as rn_desc,
+            ROW_NUMBER() OVER (PARTITION BY A,B ORDER BY C,D DESC) --可以直接开窗ab作为多层分组（比如“各销售员各年”），order by也可以多个
         FROM
             your_table
-        -- WHERE ... -- 可选的预筛选
-        GROUP BY -- 如果有聚合，需要GROUP BY所有非聚合的SELECT列
-            -- columns_to_group_by
     )
     SELECT
         *

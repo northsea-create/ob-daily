@@ -70,6 +70,22 @@ CREATE INDEX sale_abc ON SYSDBA.SALE USING (RIGHT(RTRIM(CPH),2), YEAR(XSRQ) DESC
 ```
 
 
+### 设置序列
+（1）请给 sale 表增加一个列“序号”（XH），整型，设置该列为初始值为 5，最小值 1，
+
+步长 2 的序列整数。
+
+ALTER TABLE SALE ADD COLUMN xh INT;
+
+CREATE SEQUENCE sq01 START 5 MINVALUE 1 INCREMENT 2;
+
+ALTER TABLE SALE ALTER COLUMN xh SET DEFAULT NEXTVAL('sq01');
+
+（2）设置用户 SUSER 可以修改上一题的序列。
+
+GRANT UPDATE `ON`  `SEQUENCE` sq01 TO SUSER;
+
+
 ---插入数据
 INSERT INTO 表格(sfz, loan) ---可以不写
 VALUES('201320293084','124')；
