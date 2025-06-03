@@ -122,7 +122,7 @@
 *   **业务场景：** 流水号、发票号、订单号等是否有重复或断裂。
 
     *   **子题型3.1：重复值校验**
-        *   **代码块模板：**
+        *   **代码块模板：** count数量
             ```sql
             SELECT
                 column_to_check_for_duplicates,
@@ -139,29 +139,14 @@
         *   **关键点：** `GROUP BY`, `COUNT(*)`, `HAVING COUNT(*) > 1`。
 
     *   **子题型3.2：连续性/断号校验**
-        *   **代码块模板 (使用 `LEAD()` 或 `LAG()` 窗口函数 - 推荐)：**
+        *   **代码块模板 ：** 自连接+`on`判断步长
             ```sql
-            -- 假设 serial_column 是可以转换为整数进行比较的序列号
-            WITH NumberedSequence AS (
-                SELECT
-                    CAST(serial_column AS INT) AS current_val,
-                    LEAD(CAST(serial_column AS INT), 1, NULL) OVER (ORDER BY CAST(serial_column AS INT) ASC) AS next_val
-                FROM
-                    your_table
-            )
-            SELECT
-                current_val AS missing_after_this_number,
-                (current_val + 1) AS expected_next_number
-                -- , next_val AS actual_next_number -- 可选，用于查看实际的下一个号
-            FROM
-                NumberedSequence
-            WHERE
-                next_val IS NOT NULL            -- 排除最后一个号没有下一个的情况
-                AND next_val <> (current_val + 1) -- 核心：下一个号不是当前号+1
-            ORDER BY
-                current_val;
+            SELECT *
+            FROM EXCEL A JOIN EXCEL B
+            ON A.SNO=B.SNO+1   -- 确定步长的重要操作，例如改为 DATEDIFF('MM',A.DATE,B.DATE)=1
+            WHERE B.SNO IS NOT NULL / WHERE A.SNO=B.SNO;
             ```
-        *   **关键点：** `LEAD()` (或 `LAG()`), `ORDER BY` 保证序列顺序, `CAST` (如果序列号是文本)。
+
 
 ==六个开窗函数？==
 
@@ -225,6 +210,11 @@
 *   **业务场景：** 财务审计中的多表核对、预算执行分析、跨表数据一致性检查。
 *   **代码块模板 (使用CTE逐步分解)：**
     ```sql
+    -- CTE 基本模块：
+	WITH TMP1 AS(),   # 需要AS!
+	TMP2 AS()         # 此处不需要再逗号！
+	SELECT...
+	
     -- CTE 1: 从表A提取和预处理数据
     WITH DataFromTableA AS (
         SELECT
