@@ -1,10 +1,4 @@
-
-***by 东莞市审计局 魏榕（其实是AI）***
-
 **核心原则：先理解问题 -> 识别题型 -> 套用模板 -> 填充细节**
-
----
-## **薄弱点**
 
  
 ## **题型1：数据完整性与勾稽关系校验**
@@ -54,31 +48,8 @@
             ;
             ```
         *   **关键点：** `SUM() OVER (PARTITION BY ...)`，外层 `WHERE` 筛选。
-
     *   **子题型2.2：行为频率/间隔限制 (如：隔日才能操作)**
-        *   **代码块模板 (使用 `LAG()` 窗口函数 - 推荐)：**
-            ```sql
-            WITH LaggedData AS (
-                SELECT
-                    *, -- 保留所有原始列
-                    LAG(action_date_column, 1, NULL) OVER (PARTITION BY subject_id_column ORDER BY action_date_column ASC) AS previous_action_date
-                    -- subject_id_column: 如用户ID
-                    -- action_date_column: 操作发生的日期/时间
-                FROM
-                    your_table
-            )
-            SELECT
-                * -- 或者选择你需要的列
-            FROM
-                LaggedData
-            WHERE
-                previous_action_date IS NOT NULL -- 确保有上一次操作
-                AND DATEDIFF('day', previous_action_date, action_date_column) < minimum_interval_days -- DATEDIFF语法因数据库而异
-                --  '< minimum_interval_days' 表示间隔太短，违规
-                --  '= 1' 表示连续两天操作，如果规则是“不能连续两天”
-            ;
-            ```
-        *   **代码块模板 (使用自连接 - 如果不熟悉窗口函数或考试要求)：**
+        *   **代码块模板 (使用自连接)：**
             ```sql
             SELECT DISTINCT -- 可能需要DISTINCT，取决于你想如何展示违规
                 a.* -- 或者选择a表的关键列
@@ -95,7 +66,7 @@
             ORDER BY
                 a.subject_id_column, a.action_date_column;
             ```
-        *   **关键点：** `LAG()` 或自连接，日期/时间差函数 (`DATEDIFF`, `JULIANDAY`, `EXTRACT(EPOCH FROM ...)`等)。
+        *   **关键点：** `LAG()` 或自连接，日期/时间差函数 (`DATEDIFF`, `EXTRACT(EPOCH FROM ...)`等)。
 
     *   **子题型2.3：数量/值在特定范围之外**
         *   **代码块模板：**
@@ -116,7 +87,7 @@
 
 ---
 
-## **题型3：数据唯一性与连续性校验**
+## **题型3：数据唯一性与连续性校验** 
 
 *   **目标：** 检查是否存在重复记录或序列中断。
 *   **业务场景：** 流水号、发票号、订单号等是否有重复或断裂。
@@ -148,15 +119,13 @@
             ```
 
 
-==六个开窗函数？==
-
 ---
 
 ## **题型4：排名与Top N / Bottom N 问题**
 
 *   **目标：** 找出按某个指标排序后，排在前面或后面的N条记录/N个分组。
 *   **业务场景：** 贷款金额最高的N个地市，最早的N笔交易。
-*   **代码块模板 (使用窗口函数进行排名)：**
+*   **代码块模板 (使用窗口函数进行排名)：** 注意里面的注释
     ```sql
     WITH RankedData AS (
         SELECT
