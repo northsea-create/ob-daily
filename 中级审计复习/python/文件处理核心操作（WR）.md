@@ -35,7 +35,7 @@ path = 'E:\\你的数据文件夹路径' # **请替换为你的实际数据文�
 zdf = pd.DataFrame() 
 
 for f in os.listdir(path):
-    subdf.read_excel(path+‘//’+f)
+    subdf = pd.read_excel(path+‘//’+f)
     zdf = zdf.append(subdf)
 ```
 
@@ -136,12 +136,6 @@ df_sorted_asc = df.sort_values(by='数值列')
 
 # 按单列降序排序
 df_sorted_desc = df.sort_values(by='数值列', ascending=False)
-
-# 按多列排序 (先按列A升序，再按列B降序)
-df_sorted_multi = df.sort_values(by=['列A', '列B'], ascending=[True, False])
-
-# 排序时处理缺失值 (可选参数: na_position='first'/'last')
-df_sorted_na = df.sort_values(by='数值列', na_position='first')
 ```
 
 ### 2.4 数据分列/行
