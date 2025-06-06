@@ -1,5 +1,8 @@
 {
   "cssTheme": "Blue Topaz",
   "accentColor": "#09b300",
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "interfaceFontFamily": "Microsoft Sans Serif,Source Han Serif",
+  "textFontFamily": "Microsoft Sans Serif,Source Han Serif",
+  "monospaceFontFamily": "Inter"
 }
