@@ -14,8 +14,6 @@
         your_table
     WHERE
         columnA * columnB <> columnC  -- 实际的勾稽关系表达式
-        -- 或: column_total * (1 - column_ratio) <> column_payment
-        -- 或: sales_price / purchase_price > upper_limit_ratio
     ;
     ```
 *   **关键点：** `WHERE` 子句中的算术和比较运算符。
