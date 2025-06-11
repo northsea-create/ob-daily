@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03. 每日复盘/2025-6/2025-06-11.md",
+                "file": "03. 每日复盘/2025-6/2025-06-11高铁随笔.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-11"
+              "title": "2025-06-11高铁随笔"
             }
           },
           {
@@ -65,6 +65,26 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "2d4711d8f265e555",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a6f1667836ae442",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03. 每日复盘/2025-6/2025-06-11高铁随笔.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-06-11高铁随笔"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +141,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "676a0f883ad53caa",
@@ -185,13 +206,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03. 每日复盘/2025-6/2025-06-11.md",
+                "file": "03. 每日复盘/2025-6/2025-06-11高铁随笔.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-06-11 的大纲"
+              "title": "2025-06-11高铁随笔 的大纲"
             }
           },
           {
@@ -209,7 +230,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,12 +245,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "285c19a08cfeff18",
+  "active": "8a6f1667836ae442",
   "lastOpenFiles": [
-    "03. 每日复盘/2025-6/2025-06-09上海随笔.md",
     "03. 每日复盘/2025-6/2025-06-11.md",
+    "03. 每日复盘/2025-6/2025-06-11高铁随笔.md",
+    "03. 每日复盘/2025-6/2025-06-09上海随笔.md",
     "计划/计划.md",
-    "03. 每日复盘/2025-6/未命名.md",
     "中级审计复习/SQL 神通数据库/SQL 业务场景常见代码块.md",
     "中级审计复习/模拟题.md",
     "中级审计复习/核心考点.md",
