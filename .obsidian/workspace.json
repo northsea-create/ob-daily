@@ -49,8 +49,7 @@
               "title": "10x 北极星"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025-06 生财宝典阅读/生财宝典阅读sop.md",
+                "file": "03. 每日复盘/2025-6/2025-06-15.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "生财宝典阅读sop 的大纲"
+              "title": "2025-06-15 的大纲"
             }
           },
           {
@@ -209,10 +208,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1f99f8aaf4416faf",
+  "active": "285c19a08cfeff18",
   "lastOpenFiles": [
-    "03. 每日复盘/2025-6/2025-06-15.md",
     "2025-06 生财宝典阅读/生财宝典阅读sop.md",
+    "03. 每日复盘/2025-6/2025-06-15.md",
     "中级审计复习/python/Python pandas.md",
     "2025-06 生财宝典阅读",
     "00. Lucid Muse 星际跃迁/10x 北极星.md",
